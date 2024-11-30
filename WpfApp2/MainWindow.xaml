@@ -11,6 +11,7 @@
         <Image HorizontalAlignment="Left" Height="163" Margin="88,106,0,0" VerticalAlignment="Top" Width="272" x:Name="img1"/>
         <Button Content="Выбрать картинку" HorizontalAlignment="Left" Height="52" Margin="52,10,0,0" VerticalAlignment="Top" Width="291"  Click="buttonOpen_Click"/>
         <Button Content="К радиобаттонам" HorizontalAlignment="Left" Height="59" Margin="494,322,0,0" VerticalAlignment="Top" Width="232" Click="Button_Click_1"/>
+        <Button Content="Button" HorizontalAlignment="Left" Height="88" Margin="10,160,0,0" VerticalAlignment="Top" Width="168" Click="Button_Click_2"/>
 
 
 

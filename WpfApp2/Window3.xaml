@@ -1,0 +1,27 @@
+﻿<Window x:Class="WpfApp2.Window3"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp2"
+        mc:Ignorable="d"
+        Title="Window3" Height="450" Width="800">
+    <Grid>
+        <ComboBox Margin="235, 114, 218, 260">
+            <ComboBoxItem Selected="ComboBoxItem_Selected">
+                <StackPanel>
+                    <TextBlock FontStyle="Oblique" FontSize="25">Hello World</TextBlock>
+                    <TextBlock>Hello 2</TextBlock>
+                </StackPanel>
+            </ComboBoxItem>
+
+            <ComboBoxItem Selected="ComboBoxItem_Selected_1">
+                <StackPanel>
+                    <TextBlock>Hi ITHUB</TextBlock>
+                    <TextBlock>My name is Skrillex</TextBlock>
+                </StackPanel>
+            </ComboBoxItem>
+        </ComboBox>
+        <Image HorizontalAlignment="Left" Height="65" Margin="248,24,0,0" VerticalAlignment="Top" Width="295" x:Name="img1"/>
+    </Grid>
+</Window>
