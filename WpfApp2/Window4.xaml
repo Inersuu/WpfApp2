@@ -1,0 +1,24 @@
+﻿<Window x:Class="WpfApp2.Window4"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp2"
+        mc:Ignorable="d"
+        Title="Window4" Height="450" Width="800">
+    <Grid Margin="20">
+        <Popup MouseLeave="Popup_MouseLeave" PopupAnimation="Fade" Placement="Top" PlacementTarget="{Binding ElementName=OpenPopupBorder}" AllowsTransparency="True" StaysOpen="True" x:Name="DeviceStatusSnippetPopup">
+            <Border Background="White" Padding="5" BorderBrush="Black" BorderThickness="1">
+                <Grid>
+                    <StackPanel Orientation="Vertical">
+                        <TextBlock HorizontalAlignment="Center" Text="Вызывает привет" Margin="0 10 0 10"/>
+                        
+                    </StackPanel>
+                </Grid>
+            </Border>
+        </Popup>
+        <Border x:Name="OpenPopupBorder" Width="90" Height="30" Background="LightGray">
+            <Button Content="Привет"  MouseEnter="Border_MouseEnter" MouseLeave="Border_MouseLeave" Click="Button_Click"/>
+        </Border>
+    </Grid>
+</Window>

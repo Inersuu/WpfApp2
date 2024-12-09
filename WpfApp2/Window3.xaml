@@ -23,5 +23,6 @@
             </ComboBoxItem>
         </ComboBox>
         <Image HorizontalAlignment="Left" Height="65" Margin="248,24,0,0" VerticalAlignment="Top" Width="295" x:Name="img1"/>
+        <Button Content="Button" HorizontalAlignment="Left" Height="64" Margin="18,324,0,0" VerticalAlignment="Top" Width="81" Click="Button_Click"/>
     </Grid>
 </Window>

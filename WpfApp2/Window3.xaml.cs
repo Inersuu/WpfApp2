@@ -34,5 +34,12 @@ namespace WpfApp2
         {
             img1.Source = new BitmapImage(new Uri(@"\\sysprofiles.adm.vvsu.ru\STUDENTRPROFILES$\KorbachevIV\Downloads\2024-10-30_14-34-13.png"));
         }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            Window4 window4 = new Window4();
+            this.Close();
+            window4.Show();
+        }
     }
 }
