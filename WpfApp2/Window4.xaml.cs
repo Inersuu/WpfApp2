@@ -47,5 +47,12 @@ namespace WpfApp2
         {
             MessageBox.Show("Privet");
         }
+
+        private void Button_Click_1(object sender, RoutedEventArgs e)
+        {
+            Window5 window5 = new Window5();
+            window5.Show();
+            this.Close();
+        }
     }
 }
